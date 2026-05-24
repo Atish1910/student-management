@@ -1,0 +1,17 @@
+body {
+  background-color: #f4f7fc;
+}
+
+.custom-table tbody tr:hover {
+  transform: scale(1.01);
+  transition: 0.2s ease;
+}
+
+.card {
+  background: #ffffff;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}
