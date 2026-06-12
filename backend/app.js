@@ -7,9 +7,7 @@ const studentRoutes = require("./routes/studentRoutes");
 const markRoutes = require("./routes/markRoutes");
 
 const app = express();
-app.use(cors({
-    origin: "http://localhost:5173"
-}));
+app.use(cors({origin: "*"}));
 app.use(express.json());
 
 const PORT = process.env.PORT || 4000;
